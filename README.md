@@ -1,8 +1,14 @@
 # 画像処理100本ノック!!
 
-English is here  >> https://github.com/KuKuXia/Image_Processing_100_Questions KuKuXia translates into English, so I appreciate his greate effort https://github.com/KuKuXia
+***English is here*** (KuKuXia translates into English)
 
-画像処理の初学者のための問題１００問が完成しましたぁぁぁぁぁ(´；ω；｀)
+> https://github.com/KuKuXia/Image_Processing_100_Questions
+
+***Chinese is here***  (gzr2017, my ex-colleague, translates into Chinese)
+
+> https://github.com/gzr2017/ImageProcessing100Wen
+
+画像処理の初学者のための問題１００問ですうう(´；ω；｀)
 
 これはイモリと一緒に画像処理の基本的処理の知識を身に着け、アルゴリズムを理解するための100本ノックです。ここに載っている問題はOpenCVでAPIが用意されているものが殆どですが、**あえてそれを自分の手で実装**してください。解答も載っけてますが、それはあくまで解答です。自分で考えながら実装して下さい。
 
@@ -10,12 +16,16 @@ English is here  >> https://github.com/KuKuXia/Image_Processing_100_Questions Ku
 - **内容はいろいろな文献を調べて載っけてるので正しくないものもあるかもしれないので注意して下さい** まちがいがあったらプルリクもらえるととても助かります！！
 - 【注意】このページを利用して、または関して生じた事に関しては、私は一切責任を負いません。すべて**自己責任**でお願い致します。
 
-PythonとC++の好きな方でやってみてね
+PythonとC++の好きな方でやってみてね♡
+
+## Related
 
 **ディープラーニングのノックはこっち** 
->> [ディープラーニング∞本ノック!!](https://github.com/yoyoyo-yo/DeepLearningMugenKnock)
+> [ディープラーニング∞本ノック!!](https://github.com/yoyoyo-yo/DeepLearningMugenKnock)
 
 ## Recent
+- 2019    Q.11-20 C++ を追加　Q.15 Sobelを修正
+- 2019.3.25 Q.31 フーリエ系 Q.36 DCT,  Q.47,48 トップハット変換系を修正
 - 2019.3.13 Q95-100 Neural Networkを修正
 - 2019.3.8 Questions_01_10 にC++の解答を追加！
 - 2019.3.7 TutorialにC++用を追加　そろそろC++用の答えもつくろっかなーと
@@ -67,13 +77,13 @@ $ git clone https://github.com/yoyoyo-yo/Gasyori100knock.git
 
 ### [問題11 - 20](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20)
 
-|番号|問題||番号|問題|
-|:---:|:---:|:---:|:---:|:---:|
-|11| [平滑化フィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q11-%E5%B9%B3%E6%BB%91%E5%8C%96%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | |16| [Prewittフィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q16-prewitt%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | 
-|12| [モーションフィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q12-%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | |17| [Laplacianフィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q17-laplacian%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) |
-|13| [MAX-MINフィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q13-max-min%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | |18| [Embossフィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q18-emboss%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) |
-|14| [微分フィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q14-%E5%BE%AE%E5%88%86%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | |19| [LoGフィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q19-log%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | 
-|15| [Sobelフィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q15-sobel%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | |20| [ヒストグラム表示](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q20-%E3%83%92%E3%82%B9%E3%83%88%E3%82%B0%E3%83%A9%E3%83%A0%E8%A1%A8%E7%A4%BA)  | 
+|番号|問題| Python | C++ | |番号|問題| Python | C++ |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|11| [平滑化フィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q11-%E5%B9%B3%E6%BB%91%E5%8C%96%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers/answer_11.py) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers_cpp/answer_11.cpp) |  |16| [Prewittフィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q16-prewitt%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers/answer_16.py) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers_cpp/answer_16.cpp) | 
+|12| [モーションフィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q12-%E3%83%A2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers/answer_12.py) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers_cpp/answer_12.cpp) |  |17| [Laplacianフィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q17-laplacian%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers/answer_17.py) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers_cpp/answer_17.cpp) | 
+|13| [MAX-MINフィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q13-max-min%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers/answer_13.py) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers_cpp/answer_13.cpp) |  |18| [Embossフィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q18-emboss%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers/answer_18.py) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers_cpp/answer_18.cpp) | 
+|14| [微分フィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q14-%E5%BE%AE%E5%88%86%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers/answer_14.py) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers_cpp/answer_14.cpp) |  |19| [LoGフィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q19-log%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers/answer_19.py) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers_cpp/answer_19.cpp) | 
+|15| [Sobelフィルタ](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q15-sobel%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers/answer_15.py) | [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers_cpp/answer_15.cpp) |  |20| [ヒストグラム表示](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20#q20-%E3%83%92%E3%82%B9%E3%83%88%E3%82%B0%E3%83%A9%E3%83%A0%E8%A1%A8%E7%A4%BA)  |  [✓](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_11_20/answers/answer_20.py) |
 
 ### [問題21 - 30](https://github.com/yoyoyo-yo/Gasyori100knock/tree/master/Question_21_30)
 
